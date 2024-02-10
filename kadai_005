@@ -1,0 +1,10 @@
+# 変数の設定
+top_length = 10  # 上辺
+bottom_length = 20  # 下辺
+height = 5  # 高さ
+
+# 台形の面積を計算
+area = (top_length + bottom_length) * height / 2
+
+# 結果の出力
+print(str(area) + "cm²")
