@@ -1,0 +1,7 @@
+list = ["水","金","地","火","木","土","天","海","冥"]
+for element in list:
+    print(element)
+
+list = ["水","金","地","火","木","土","天","海","冥"]
+while list:
+    print(list.pop(0))  # リストの先頭要素を取り出して出力
