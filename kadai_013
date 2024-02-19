@@ -1,0 +1,7 @@
+def calculate_total(price, tax_rate):
+    """商品価格に消費税を加えた合計額を計算する関数"""
+    total = price + (price * tax_rate)
+    return total
+
+# 関数の呼び出し例
+print(calculate_total(1000, 0.1))  # 1000円の商品に10%の消費税を適用
