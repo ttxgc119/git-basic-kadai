@@ -1,0 +1,12 @@
+# グローバル変数の定義
+price1 = 100
+price2 = 200
+tax = 1.1
+
+# total関数の定義
+def total():
+    # 関数内での計算
+    return (price1 + price2) * tax
+
+# total関数の実行と結果の出力
+print(total())
